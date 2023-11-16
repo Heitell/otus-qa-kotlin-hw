@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     TestRunnerImpl().runTest(Steps()) { Test().runTest() }
 }
 
